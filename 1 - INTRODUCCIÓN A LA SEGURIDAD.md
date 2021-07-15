@@ -142,3 +142,78 @@ __Metodos para mejorar la seguridad del sistema Windows.__
 ## 1.10 Vulnerabilidades en aplicaciones multiplataforma. 
 
 ​	Las aplicaciones web o aplicaciones multiplataforma, generalmente emplean una arquitectura de sistema cliente-servidor, y varían en complejidad y funcionalidad. 
+
+> Se consideran 'multiplataforma' ya que, idealmente, se puede acceder desde cualquier navegador web y en diferentes sistemas operativos.
+
+Entre las vulnerabilidades de los sistemas web, se encuentran:
+
+- __Inyección de codigo:__ Introducción de código externo en la aplicación web, y sucede cuando los datos pasan sin filtrar directamente como parte de la consulta. Se puede usar para acceder a datos sin autorización o para ejecutar comandos, siendo las inyecciones de SQL las más comunes. 
+- __Gestión de la sesión del usuario:__ Corresponse al mal manejo de las sesiones en aquellas aplicaciones que utilizan autenticación, permitiendo que usuarios accedan y utilicen la cuenta de otros, listas de claves, etc. 
+- __Cross-Site Scripting (XSS):__ Ocurre cuando existe una validación incompleta de la información ingresada por el atacante. 
+- __Referencia directa a objetos inseguros (IDOR):__ Exposición de estructura interna y de elementos de desarrollo que permita al atacante suponer métodos y datos predecibles. 
+- __Errores de configuración:__ Malas configuraciones de seguridad a nivel de framework, sistemas operativos, aplicaciones de terceros, etc.
+- __Falta de control de nivel de acceso a funciones:__ Mediante la alteración de una URL o de un parámetro, se accede a una función sobre la cual no se tiene privilegios.
+- __Intercepción de peticiones entre sitios (CSRF):__ Permite generar peticiones falsas de forma que el usuario piense que las está realizando en el sitio correcto cuando se trata de uno falso. 
+- __Uso de componenetes vulnerables:__ Componentes usados en una aplicación que tienen vulnerabilidades conocidas y podrían ser detectadas mediante un análisis automático. 
+- __Falta de validación de redirecciones:__ Un enlace legítimo de la aplicación, una vez cargada, redirigída hacia otro sitio sobre el cual el atacante puede tener control.
+
+---
+
+
+
+## 1.12 Buenas practicas y salvaguardas para la seguridad.
+
+
+
+En la revision de equipos y servidores se deberían de analizer y evaluar los siguientes aspectos:
+
+- Parches del sistema Operativo.
+- Seguridad del Sistema de Ficheros. 
+- Cuentas de usuarios.
+- Servicios y aplicaciones instaladas.
+- Protocolos y servicios de red. 
+- Control de accesos  a los recursos.
+- Registro y auditoría de eventos.
+- Configuración de las herramientas de seguriad: antivirus, cortafuegos personales, gestores de copias de seguridad, gestores de contraseñas, etc.
+  - ​     Aspectos a tener en cuenta a la hora de utilizar herramientas para el análisis y evaluación de vulnerabilidades en el sistema informático:
+    - Definición del alcance y objetivos de las pruebas a realizar.
+    - Conocimiento y experiencia del equipo que analiza las vulnerabilidades y realiza las pruebas de intrusión en el sistema.
+    - Nivel de automatización de las pruebas realizadas.
+    - Actualización periódica de la base de datos de vulnerabilidades a analizar.
+    - Controlar y limitar los posibles riesgos que se deriven de las pruebas.
+    - Realización de las pruebas de forma periódica o en momentos puntuales.
+    - Registrar las puntuaciones y resultados obtenidos en las distintas pruebas realizadas.
+
+## 1.13 Recomendaciones para la seguridad de la res.
+
+1. __Configuración adecuada del equipo informático:__ Servicios instalados, cuentas y grupos de usuarios, contraseñas, permisos de acceso, etc.
+
+2. __Revisión y actualización de los softwares instalados.__
+
+3. __Configuración del nivel de seguridad en función de la zona de trabajo del usuario:__
+
+   ​	Se pueden distinguir 4 zonas de trabajo en el navegador:
+
+   1. <u>Zona "internet":</u> Se aplica al nivel de seguridad medio, en el que se permite la ejecución de applets java, o scripts, así como la descarga de ficheros desde internet, pero solicitando confirmación antes de ejecutar controles ActiveX.
+   2. <u>Zona "intranet local":</u> Reservada para Websites dentro de la red local, que se supone más segura que el internet. Se aplica el nivel de seguridad medio-bajo, similar al medio pero con menos restricciones.
+   3. <u>Zona de "sitios de confianza":</u> Pensada para aquellos websites que no se consideran como una amenaza para el equipo. Se aplica el nivel de seguridad bajo.
+   4. <u>Zona de "sition restringidos":</u> Pensada para aquellos websites que se consideran peligrosos. Se aplica en este caso el nivel de seguridad alto, en el que se inhabilida la ejecución de código activo, asi como descarga de ficheros.
+
+4. __Control de la utilización de "cookies":__ una __cookie__ es un pequeño fichero de texto que se guarda en el disco duro del equipo del usuario y que permite recordar el servidor web, algunos datos sobre el usuario.
+
+5. __Control del contenido activo en las páginas web:__ Estos componenetes y "miniaplicaciones" de código activo, pódrian comprometer la seguridad del equipo en que se ejecutan. 
+
+6. __Conexión a servidores web seguros mediante protocolos de encriptación:__ En determinadas conexiones a servidores web, la comunicación debería estar cifrada mediante el protocolo SSL. Para ello, el navegador se encarga de abrir una sesión HTTP sobre un canal SSL, inficándolo mediante el texto "https://" que se incluye al comienzo de la dirección de la pagina web. 
+
+7. __Control de los contenidos que se pueden visualizar:__ El propio navegador, generalmente, dispone de una herramienta (llamada "asesor de contenido") que permite restringir el acceso a páginas con determinado tipo de contenidos. Para ello, se utiliza la clasificación de contenidos en distintas categorías que ha sido propuesta por la ICRA62 (Internet Content Rating Association).
+
+---
+
+
+
+## 1.14 Recuerda.
+
+- La irrupción y el desarrollo actual de las nuevas tecnologías están dando lugar a una serie de cambios estructurales a distintos niveles: económico, laboral, social, educativo, político, relacional, etc.
+- La __disponibilidad__ asegura que el acceso sin interrupciones a los datos o a los recursos de información por personal autorizado, se produce correctamente y en el tiempo.
+- Para la seguridad de la información, la __Integridad__ es la propiedad que busca mantener los datos libres de modificaciones no autorizadas.
+- Generalmente, la seguridad de los sistemas informáticos se concentra en __garantizar el derecho a acceder a datos y recursos del sistema__ configurando los mecanismos de autentificación y control que aseguran que los usuarios de estos recursos sólo posean los derechos que se les han otorgado. 
