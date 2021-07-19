@@ -1,4 +1,4 @@
-# Politicas de seguridad.
+# 2 - Politicas de seguridad.
 
 La política de seguridad de la información en la empresa tiene como principal objetivo dirigir y dar soporte a la gestión de la seguridad de la información, pero siendo cogerente con los requerimientos comerciales, las necesidades de la organización y la normativa vigente.
 
@@ -8,7 +8,7 @@ La política de seguridad de la información en la empresa tiene como principal 
 
 
 
-## Introducción a las políticas de seguridad.
+## 2.1 - Introducción a las políticas de seguridad.
 
 La __dirección de la organización__ debería establecer de forma clara la política de seguridad de la misma, en línea con los objetivos comerciales, demostrando su apoyo y compromiso con la seguridad de la información en toda la empresa. Además, la política de seguridad debe tener un el interior de la empresa un responsable de su mantenimiento y revisión, de acuerdo con un plan establecido previamente. 
 
@@ -16,7 +16,7 @@ La __dirección de la organización__ debería establecer de forma clara la pol�
 
 
 
-## ¿Por qué son importantes las políticas de seguridad?
+## 2.2 - ¿Por qué son importantes las políticas de seguridad?
 
 - __Abordar amenazas:__  Establecer e implementar estrategías para identificar y abordar las amenazas y así evitar ser dañados o en ultima instancia reducir el daño.
 - __Contratar empleados:__ Involucrar a los empleados en el proceso de desarrollo e implementación de políticas y procedimientos de seguridad informática, con el fin de generar compromiso y pertenencia para con las politicas de seguridad. 
@@ -32,7 +32,7 @@ El __objetivo__ es implantar una serie de leyes, normas, estándares y práctica
 
 
 
-## ¿Qué debe de contener una política de seguridad?
+## 2.3 - ¿Qué debe de contener una política de seguridad?
 
 Las **políticas** se tendrían que poder **implementar a través de determinados procedimientos administrativos y la publicación de unas guías de uso** aceptable del sistema por parte del personal, así como mediante la instalación, configuración y mantenimiento de determinados dispositivos y herramientas hardware y software que implanten servicios de seguridad.
 
@@ -54,7 +54,7 @@ Las Políticas de Seguridad no deben limitarse a cumplir con los requisitos impu
 
 
 
-## ¿Que no debe contener una política de seguridad?
+## 2.4 - ¿Que no debe contener una política de seguridad?
 
 
 
@@ -70,7 +70,7 @@ Las Políticas de Seguridad no deben limitarse a cumplir con los requisitos impu
 
 
 
-## ¿Como conformar una política de seguridad informática? 
+## 2.5 - ¿Como conformar una política de seguridad informática? 
 
 - __Alcance:__ Recursos, instalaciones y procesos de la organización sobre los que se aplican. 
 - Objetivos perseguidos y prioridades de seguridad.
